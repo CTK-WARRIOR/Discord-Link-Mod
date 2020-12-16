@@ -1,0 +1,66 @@
+.landing {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #2193b0;
+    font-family: Helvetica, sans-serif;
+    height: 10vh;
+    background-size: contain;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 300px;
+      display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.landing:hover {
+  background-image: linear-gradient(-60deg, #2193b0, #6dd5ed);
+}
+
+
+
+.landing h2 {
+  text-align: center;
+  margin: auto;
+
+}
+
+.glowing-text {
+  animation: flow 30s ease-in-out infinite;
+ background: linear-gradient(-60deg,  #2193b0,  #6dd5ed, #2193b0, #C4E0E5, #6dd5ed);
+ background-size: 300%;
+ -webkit-background-clip: text;
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.notice {
+  text-align: center;
+}
+
+
+
+@keyframes flow {
+
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+  background-position: 0 50%;
+  }
+
+}
+
+  html {
+    font-size: 12px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #36393f;
+    color: #C4E0E5;
+}
